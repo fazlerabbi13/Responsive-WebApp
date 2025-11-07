@@ -4,6 +4,7 @@
 }
 body{
     background: rgba(17, 17, 17, 1);
+    color: white;
 }
 
 nav{
@@ -46,4 +47,83 @@ nav a{
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
+}
+
+
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1120px;
+    margin-left: 250px;
+}
+.btn-primary {
+  background: #e6533c;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 80px;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: -30px;
+}
+
+.banner-image {
+  position: relative;
+display: inline-block;
+}
+
+.banner-image img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.banner-content p {
+  color: rgba(255, 255, 255, 0.7);
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+.badge {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.badge h3 {
+  color: #fff;
+  margin: 0;
+}
+
+.badge p {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.top-right {
+  position: absolute;
+  margin-top: 60px;
+  top: 10%;
+  right: -10%;
+  transform: translate(0, 0);
+}
+
+.bottom-left {
+  bottom: 30px;
+  left: -40px;
 }
