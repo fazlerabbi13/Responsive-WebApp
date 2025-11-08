@@ -184,8 +184,8 @@ gap: 10px;
 } */
 
 .habits {
-  background: #0a0a0a;
   color: white;
+  margin-left: 50px;
   text-align: center;
   padding: 80px 10%;
 }
