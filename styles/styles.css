@@ -242,3 +242,53 @@ gap: 10px;
   font-size: 0.9rem;
   margin-top: 5px;
 }
+
+.run-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1120px;
+  height: 350px;
+  margin: 0 auto;
+  border-radius: 18px;
+  background: rgba(34, 34, 34, 1);
+}
+
+.run-section>div {
+  width: 50%;
+}
+
+.run-image {
+  width: 400px;
+  margin-left: 70px;
+  border-radius: 18px;
+}
+
+.run-description {
+  margin-left: 100px;
+}
+
+.run-p,
+.run-h {
+  margin-bottom: 20px;
+}
+
+.run-p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.run-h {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
