@@ -292,3 +292,60 @@ gap: 10px;
   letter-spacing: 0%;
   text-align: left;
 }
+
+/* footer */
+.footer {
+  background: rgba(255, 255, 255, 0.1);
+  height: 300px;
+  margin-top: 30px;
+}
+
+.footer-contant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.h1 {
+  margin-top: 20px;
+  font-family: Inter;
+  color: rgba(230, 83, 60, 1);
+}
+.hh1 {
+  margin-top: 20px;
+  font-family: Inter;
+}
+.p {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.small-s {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.5);
+
+}
+
+.hr {
+  width: 1120px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
