@@ -294,6 +294,29 @@ gap: 10px;
 }
 
 /* BMI section */
+.bmi-content {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.bmi-heading {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.bm-paragraph {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
 .bmi-section {
   display: flex;
   justify-content: space-between;
@@ -308,10 +331,11 @@ gap: 10px;
 .bmi-chart,
 .bmi-calculator {
   width: 500px;
-  margin-right: 60px;
+  margin-right: 50px;
 }
-.bmi-chart{
-  margin-left: 30px;
+
+.bmi-chart {
+  margin-left: 50px;
 }
 
 .bmi-chart h2,
